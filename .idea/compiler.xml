@@ -22,13 +22,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Report" />
         <module name="TestNG" />
+      </profile>
+      <profile default="false" name="Annotation profile for Report" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Report" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter" target="1.5" />
-      <module name="Report" target="1.5" />
+      <module name="Report" target="1.6" />
       <module name="TestNG" target="1.5" />
     </bytecodeTargetLevel>
   </component>
