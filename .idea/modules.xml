@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chapter.iml" filepath="$PROJECT_DIR$/Chapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpClient/HttpClient.iml" filepath="$PROJECT_DIR$/HttpClient/HttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisWithMysql/MybatisWithMysql.iml" filepath="$PROJECT_DIR$/MybatisWithMysql/MybatisWithMysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewDemo/NewDemo.iml" filepath="$PROJECT_DIR$/NewDemo/NewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Report/Report.iml" filepath="$PROJECT_DIR$/Report/Report.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNG/TestNG.iml" filepath="$PROJECT_DIR$/TestNG/TestNG.iml" />
     </modules>
   </component>

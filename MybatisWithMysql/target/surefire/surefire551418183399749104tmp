@@ -1,0 +1,5 @@
+#surefire
+#Thu Jun 20 15:09:23 CST 2019
+user.dir=/Users/admin/Documents/APIAutoTest/MybatisWithMysql
+localRepository=/Users/admin/Documents/repository
+basedir=/Users/admin/Documents/APIAutoTest/MybatisWithMysql

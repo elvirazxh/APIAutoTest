@@ -31,10 +31,50 @@
         <processorPath useClasspath="true" />
         <module name="Report" />
       </profile>
+      <profile default="false" name="Annotation profile for SpringBoot" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="SpringBoot" />
+      </profile>
+      <profile default="false" name="Annotation profile for HttpClient" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="HttpClient" />
+      </profile>
+      <profile default="false" name="Annotation profile for Mybatis" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Mybatis" />
+      </profile>
+      <profile default="false" name="Annotation profile for MybatisWithMysql" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="MybatisWithMysql" />
+      </profile>
+      <profile default="false" name="Annotation profile for NewDemo" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="NewDemo" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Chapter" target="1.5" />
+      <module name="Chapter" target="1.8" />
+      <module name="HttpClient" target="1.8" />
+      <module name="Mybatis" target="1.8" />
+      <module name="MybatisWithMysql" target="1.8" />
+      <module name="NewDemo" target="1.8" />
       <module name="Report" target="1.6" />
+      <module name="SpringBoot" target="1.8" />
       <module name="TestNG" target="1.5" />
     </bytecodeTargetLevel>
   </component>
